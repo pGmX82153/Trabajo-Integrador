@@ -4,6 +4,7 @@ body {
 
 .navbar {
     display: flex;
+    gap: 20px;
     justify-content: flex-end;
     flex-direction: row;
     align-items: flex-end;
