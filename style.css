@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(247, 244, 228);
 }
 
 .navbar {
@@ -13,6 +13,12 @@ body {
     flex-direction: row;
     align-items: flex-end;
     background-color: rgb(95, 85, 85);
+}
+
+.navbar img.logo {
+  justify-content: left;
+  width: 35px;
+  height: 30px;
 }
 
 .navbar li {
@@ -29,7 +35,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/img/the-blurred-819385_1280.png);
+    background-image: url(/assets/img/fondoblur2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -59,13 +65,19 @@ body {
 
 .contacto-container {
     margin-top: 80px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items:flex-start;
-    background-image: url(/assets/img/clean-2721103_1280.jpg);
+    background-image: url(/assets/img/fondoform.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.form-control {
+  width: 50%;
 }
 
 .contacto-container h2 {
@@ -74,12 +86,11 @@ body {
     margin-bottom: 30px;
 }
 
-/* INICIO ESTILO footer */
+/*--------------------- INICIO ESTILO footer --------------------*/
 
 section {
   width: 100%;
   display: inline-block;
-  background: #fbfbfb;
   height: 10vh;
   text-align: center;
   font-size: 22px;
@@ -88,7 +99,7 @@ section {
 }
 
 .footer-distributed {
-  background-color: #292c2f;
+  background-color: rgb(95, 85, 85);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -107,7 +118,7 @@ section {
 .footer-distributed p.footer-links {
   font-size: 18px;
   font-weight: bold;
-  color: #ffffff;
+  color: orange;
   margin: 0 0 10px;
   padding: 0;
   transition: ease .25s;
@@ -144,10 +155,10 @@ section {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #33383b;
+  background-color: rgb(95, 85, 85);
   border-radius: 2px;
   font-size: 20px;
-  color: #ffffff;
+  color: orange;
   text-align: center;
   line-height: 35px;
   margin-left: 3px;
